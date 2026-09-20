@@ -1,0 +1,20 @@
+{
+  "name": "DocMark",
+  "short_name": "DocMark",
+  "description": "A private document conversion desk for clean Markdown and portable PDFs.",
+  "lang": "en",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f7f3eb",
+  "theme_color": "#171c4a",
+  "icons": [
+    {
+      "src": "/docmark-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
