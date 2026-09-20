@@ -1,0 +1,15 @@
+{
+  "buildCommand": "pnpm --filter @workspace/docmark run build",
+  "outputDirectory": "artifacts/docmark/dist/public",
+  "installCommand": "pnpm install --frozen-lockfile",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
+  "env": {
+    "BASE_PATH": "/",
+    "PORT": "5173"
+  }
+}
